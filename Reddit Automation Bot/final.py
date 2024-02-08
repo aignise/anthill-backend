@@ -18,7 +18,7 @@ reddit = praw.Reddit(client_id=reddit_client_id,
 
 openai_client = OpenAI(api_key=openai_api_key)
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='#your apikey')
 
 file_path = filedialog.askopenfilename()  
 
@@ -111,7 +111,7 @@ def create_thread():
     thread = client.beta.threads.create()
     return thread.id
 
-assistant_id = "asst_HPCWxSdBIHxhE6v4AQGgBqZk"
+assistant_id = "#yourassistantid"
 thread_id = "thread_oWVUlvrYVJitWFoP6w59FtQ"
 prompt ="Extract keywords and subreddits from the document and create a reddit post on the keywords"
 
