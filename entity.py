@@ -36,7 +36,7 @@ def setup():
     assistant = client.beta.assistants.create(
         name="Reddit Marketing Automation",
         instructions="You are a bot to manage reddit marketing for a firm",
-        model="gpt-4-turbo-preview",
+        model="gpt-3.5-turbo-0125",
         file_ids=[file.id],
         tools=[
             {
