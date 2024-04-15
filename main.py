@@ -7,7 +7,7 @@ from openai import OpenAI
 from nltk.corpus import stopwords
 import os
 from dotenv import load_dotenv
-from final import setup, create_thread,start,prompt, get_response, thread_id, assistant_id
+from entity import setup, create_thread,start,prompt, get_response, thread_id, assistant_id
 
 load_dotenv()
 
